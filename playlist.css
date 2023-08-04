@@ -1,0 +1,446 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  box-sizing: border-box;
+}
+.body-div {
+  height: 100vh;
+  display: flex;
+}
+body{
+    background: linear-gradient(to bottom, #90AEA7 0%, #000 100%);
+}
+.side-bar {
+  flex: 1;
+  position: fixed;
+  background-color: black;
+  width: 20%;
+  height: 90%;
+  min-width: 20vw;
+}
+.hero {
+  flex: 4;
+  margin-left: 20%;
+}
+.music-player {
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: #181818;
+}
+.logo1 {
+  padding-top: 15px;
+  margin: 10px;
+}
+.home1 {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.search1 > img {
+  width: 29.645px;
+  height: 29.645px;
+}
+.library > img {
+  width: 27.701px;
+  height: 28.41px;
+}
+.playlist-image {
+  height: 29px;
+  width: 29px;
+}
+.home > a {
+  text-decoration: none;
+}
+.liked-image {
+  width: 29px;
+  height: 29px;
+  background: linear-gradient(
+    135deg,
+    #4000f4 0%,
+    #603aed 22.48%,
+    #7c6ee6 46.93%,
+    #979fe1 65.71%,
+    #a2b3de 77.68%,
+    #adc8dc 88.93%,
+    #c0ecd7 100%
+  );
+}
+.liked-image > img {
+  width: 10.746px;
+  height: 10.746px;
+  border-radius: 1px;
+}
+.podcast-image {
+  width: 29px;
+  height: 29px;
+  border-radius: 5px;
+  background: #004638;
+}
+.fav-div {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.m1{
+  padding-left: 10px;
+}
+
+.m2{
+  padding-left:   105px;
+}
+
+.control {
+  width: 25rem;
+  padding-bottom: 6px;
+}
+
+.m3{
+  padding-right: 105px;
+}
+
+.r-text{
+padding-right: 110px;
+}
+
+ul > li {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.install {
+  font-size: 16px;
+  font-weight: 700;
+  margin-inline: 10px;
+  padding-inline: 10px;
+}
+.install > p {
+  margin: 0px;
+  padding-inline: 20px;
+}
+.install > img {
+  width: 29px;
+  height: 29px;
+}
+.home1:hover {
+  border-radius: 6px;
+  background: #282828;
+}
+
+.music-text > h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.music-text > p {
+  color: #b3b3b3;
+  font-size: 15px;
+  font-weight: 600;
+}
+.music-heart {
+  width: 21px;
+  height: 24px;
+  bottom: 15px;
+}
+
+/* hero  */
+
+
+.top{
+    display: flex;
+    margin-top: 4%;
+    align-items: center;
+}
+.playlist-text>p{
+font-size: 13px;
+font-weight: 500;
+}
+.playlist-text>h1{
+font-size: 80px;
+font-weight: 700;
+}
+.middle{
+  padding: px;
+    background: linear-gradient(to bottom,#4562658f,#000000,#000);
+width: auto;
+height: 60vh;
+}
+.song_img_nav{
+  border-radius: 8px;
+  filter: drop-shadow(0px 0px 10px rgb(104, 104, 104));
+}
+
+.title{
+    
+    margin-inline: 10px;
+}
+.title>p{
+font-size: 12px;
+font-weight: 400;
+opacity: 0.699999988079071;
+}
+.playlistGrids {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px; */
+    padding: 7px;
+    width: 97%;
+    color: white;
+    
+   
+    margin-left: 20px;
+}
+
+.left-playlist{
+    display: flex;
+    align-items: center;
+}
+.grid-text>p{
+font-size: 12px;
+font-weight: 400;
+    padding-inline: 5px;
+    margin-bottom: 0px;
+}
+
+.m-text{
+font-size: 12px;
+font-weight: 400;
+margin-bottom: 0px;
+}
+.r-text{
+font-size: 12px;
+font-weight: 400;
+margin-bottom: 0px;
+}
+.playlistGrids:hover{
+    border-radius: 6px;
+    filter: drop-shadow(0px 0px 3px rgb(173, 173, 173));
+    transition: all ease 0.1s;
+    background: #242424;
+}
+
+.music_player {
+  position: fixed;
+  border-radius: 10px;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background: rgba(40, 40, 40, 1);
+  filter: drop-shadow(0px 1px 10px rgb(0, 0, 0));
+
+}
+
+.music_image{
+  position: fixed;
+  /* display: flex; */
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  bottom:12.5px;
+  left: 17px;
+}
+
+.music_text{
+  position: fixed;
+  font-family:'DM Sans';
+  font-style: normal;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: white;
+  left: 95px;
+  margin-top: 12px;
+}
+
+.music_text_1{
+  position: fixed;
+  font-family:'DM Sans';
+  font-style: normal;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: rgb(179, 179, 179);
+  left: 95px;
+  margin-top: 36px;
+}
+
+.music_heart{
+  position: fixed;
+  width: 21px;
+  height: 24px;
+  bottom: 25px;
+  left: 245px;
+}
+
+.center_music{
+  position: absolute;
+  left: 36%;
+  right: 5%;
+  bottom: 1px;
+}
+
+.control{
+  width: 30rem;
+}
+.right_music{
+ position: fixed;
+ right: 1.5%;
+ bottom:15px
+}
+
+.left-section{
+  color:white;
+  background: rgb(0, 0, 0);
+  position: fixed;
+  width: 20%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  padding-bottom: 5%;
+}
+
+a{    
+font-family:'DM Sans';
+font-style: normal;
+text-decoration: none;
+font-weight: 700;
+font-size: 15px;
+line-height: 25px;
+letter-spacing: 0em;
+color: rgba(255,255,255,1);
+}
+
+.logo{
+  /* Spotify logo */
+  position: absolute;
+  width: 202.58px;
+  height: 60.53px;
+  left: 35.82px;
+  top: 30px;
+}
+
+.home{
+  /* Home */
+  position: absolute;
+  display: flex;
+  align-items: center;
+  
+  width: 290px;
+  height: 50px;
+  left: 12.35px;
+  top: 120px;
+  border-radius: 6px;
+}
+
+.door{
+  position: absolute;
+  display: flex;
+  width: 7.41px;
+  height: 13.42px;
+  left: 52.74px;
+  top: 29px;
+}
+
+.bg{
+  position: absolute;
+  left: 40.76px;
+}
+.home_text{
+  /* Home */
+  position: absolute;
+  left: 98.82px;
+  align-items: center;
+  padding-left: em;
+  padding-top: 4px;
+  margin: 0px;
+}
+
+.search{
+  /* Search */
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 290px;
+  height: 50px;
+  left: 12.35px;
+  top: 175px;
+  border-radius: 6px;
+}
+
+.libary{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 290px;
+  height: 50px;
+  left: 12.35px;
+  top: 230px;
+  border-radius: 6px;
+}
+.plus{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 290px;
+  height: 50px;
+  left: 12.35px;
+  border-radius: 6px;
+  top: 300px;
+}
+
+.heart{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 290px;
+  height: 50px;
+  left: 12.35px;
+  border-radius: 6px;
+  top: 355px;
+}
+
+.hotspot{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 290px;
+  height: 50px;
+  left: 12.35px;
+  border-radius: 6px;
+  top: 410px;
+}
+
+.back:hover {
+  background-color: rgb(40,40,40,1);
+  transition: all ease 0s;
+}
+
+.playlist{
+  position: absolute;
+  width: 237.69px;
+  height: 177.92px;
+  left: 20.35px;
+  top: 465px;
+  font-family:'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 1px;
+  letter-spacing: 0em;
+  color: rgba(255,255,255,1);
+}
